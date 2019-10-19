@@ -1,20 +1,6 @@
-# Satisfactory Pak Modding
+# Satisfactory Item Dictionary
 
-Starter project, tools and all information regarding pak modding in Satisfactory.
-
-# Wiki
-
-https://github.com/satisfactorymodding/SatisfactoryUnrealProject/wiki
-
-# Required Tools
-
-* Unreal Engine 4 (version 4.21.2)
-* Visual Studio 2017
-* The Starter Project
-* SML
-* Wwise
-
-_(Note: Links can be found in the guide)_
+This project houses many common items used by mods. To use these items, simply create an item with the same name and path in your mod folder, but do not pack it. At runtime, all the items will get resolved, even if the descriptor is empty at compile time.
 
 # Disclaimer
 
