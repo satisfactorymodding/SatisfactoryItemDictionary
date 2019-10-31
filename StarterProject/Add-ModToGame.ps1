@@ -1,22 +1,22 @@
 ﻿
 $ModName = "SID"
-$ModId = "BLAH"
+$ModId = "CkUs5KM9ShwVfr"
 $GameDir = "E:\Program Files\Epic Games\SatisfactoryEarlyAccess"
 $UnrealEngine = "E:\Program Files\Epic Games\UE_4.21\Engine"
 
 $CookUnreal = $true;
-$RunGame = $false;
+$RunGame = $true;
 
 $PakOnly = $true;
 
-$Version="1.0.0"
+$Version="1.0.1"
 
 $DataJson = @"
 {
   "mod_id": "$($ModId)",
   "name": "$($ModName)",
   "version": "$($Version)",
-  "sml_version": "v1.0.0",
+  "sml_version": "v1.0.2",
   "description": "Satisfactory Item Dictionary",
   "authors": ["SuperCoder79","Mrhid6"]
 }
