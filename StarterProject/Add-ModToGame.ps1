@@ -5,7 +5,7 @@ $GameDir = "E:\Program Files\Epic Games\SatisfactoryEarlyAccess"
 $UnrealEngine = "E:\Program Files\Epic Games\UE_4.21\Engine"
 
 $CookUnreal = $true;
-$RunGame = $true;
+$RunGame = $false;
 
 $PakOnly = $true;
 
@@ -18,7 +18,13 @@ $DataJson = @"
   "version": "$($Version)",
   "sml_version": "v1.0.2",
   "description": "Satisfactory Item Dictionary",
-  "authors": ["SuperCoder79","Mrhid6"]
+  "authors": ["SuperCoder79","Mrhid6"],
+  "objects": [
+     {
+        "type": "pak",
+        "path": "$($ModName).pak"
+     }
+  ]
 }
 "@
 
